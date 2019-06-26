@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    border-color: $theme-primary;
+    border-color: $theme-secondary;
     border-width: 3px;
     max-width: 50px;
 }
@@ -52,8 +52,16 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: rgba(white, .9);
 }
+
+.hint{
+    font-size: 12px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+
 
 section {
     padding: 100px 0;
@@ -211,6 +219,11 @@ header {
     margin-top: 0;
 }
 
+.qrcode{
+    width: 100px;
+    height: 100px;
+}
+
 .service-box {
     max-width: 400px;
     margin: 50px auto 0;
@@ -219,6 +232,10 @@ header {
     }
     p {
         margin-bottom: 0;
+    }
+    img {
+        width: 25%;
+        height: 25%;
     }
 }
 
@@ -251,11 +268,11 @@ header {
             }
             .project-category {
                 text-transform: uppercase;
-                font-weight: 600;
-                font-size: 14px;
+                font-weight: 800;
+                font-size: 20px;
             }
             .project-name {
-                font-size: 18px;
+                font-size: 12px;
             }
         }
     }
