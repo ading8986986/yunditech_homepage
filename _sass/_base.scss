@@ -120,17 +120,24 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba(black, 0.7);
             &:hover,
             &:focus {
                 color: white;
             }
+            
         }
+
+        .navbar-header .logo {
+            width: 40px;
+            height: 40px;
+        }
+        
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(black, 0.7);
             &:hover {
-                color: white;
+                color: rgba(black, 0.5);
             }
         }
         &.affix {
@@ -244,6 +251,7 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+
     .portfolio-box-caption {
         color: white;
         opacity: 0;
