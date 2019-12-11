@@ -44,6 +44,7 @@ p {
 
 .bg-primary {
     background-color: $theme-primary;
+    position: relative;
 }
 
 .bg-dark {
@@ -61,7 +62,13 @@ p {
     vertical-align: middle;
 }
 
+.markfontcolor{
+    color: midnightblue;
+}
 
+.whitecolor{
+    color: white;
+}
 
 section {
     padding: 100px 0;
@@ -307,6 +314,28 @@ header {
     h2 {
         margin: 0 auto 20px;
     }
+}
+
+.hint{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(black, 0.8);
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+
+    img {
+        margin: 20px auto;
+        max-width: 450px;
+        width: 90%;
+        // height: 100%;
+
+    }
+        
 }
 
 // Bootstrap Overrides
