@@ -47,6 +47,7 @@
     var userAgent = navigator.userAgent.toLowerCase()
     if(userAgent.indexOf("micromessenger") > -1){
         $('#hint').show()
+        
         $('#mainNav').hide()
     } else {
         $('#hint').hide()
