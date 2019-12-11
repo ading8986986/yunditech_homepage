@@ -6,6 +6,7 @@
 
 (function($) {
     "use strict"; // Start of use strict
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -44,12 +45,4 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
-    var userAgent = navigator.userAgent.toLowerCase()
-    if(userAgent.indexOf("micromessenger") > -1){
-        $('#hint').show()
-        $('#mainNav').hide()
-    } else {
-        $('#hint').hide()
-        $('#mainNav').show()
-    }
 })(jQuery); // End of use strict
