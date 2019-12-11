@@ -1108,6 +1108,13 @@ figure {
 img {
   vertical-align: middle;
 }
+#hint{
+  text-align: center;
+  margin: 0 auto;
+  /* width: 100%; */
+  /* height: 100px; */
+  /* background-color: black; */
+}
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
@@ -1324,7 +1331,8 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #777;
+  /* color: #777; */
+  color:black;
 }
 .text-primary {
   color: #337ab7;
