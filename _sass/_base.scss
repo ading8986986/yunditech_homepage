@@ -187,12 +187,12 @@ header {
         width: 100%;
         height: auto;
         .header-content-inner {
-            .hear_font{
+            .header_font{
                 font-weight: 500;
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                font-size: 50px;
+                font-size: 35px;
             }
             h1 {
                 font-weight: 500;
@@ -253,12 +253,17 @@ header {
     @media (min-width: 992px) {
         margin: 20px auto 0;
     }
+    
     p {
         margin-bottom: 0;
     }
     img {
         width: 45%;
         height: 45%;
+    }
+    .smaller-img{
+        width: 35%;
+        height: 35%;
     }
 }
 
