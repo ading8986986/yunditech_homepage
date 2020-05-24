@@ -169,7 +169,7 @@ header {
       min-height: 100%; }
       header .header-content {
         position: absolute;
-        top: 60%;
+        top: 50%;
         height: auto;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -201,8 +201,8 @@ header {
   .service-box p {
     margin-bottom: 0; }
   .service-box img {
-    width: 25%;
-    height: 25%; }
+    width: 45%;
+    height: 45%; }
 
 .portfolio-box {
   position: relative;
