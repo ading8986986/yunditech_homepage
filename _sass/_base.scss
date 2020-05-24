@@ -187,8 +187,15 @@ header {
         width: 100%;
         height: auto;
         .header-content-inner {
+            .hear_font{
+                font-weight: 500;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 0;
+                font-size: 50px;
+            }
             h1 {
-                font-weight: 700;
+                font-weight: 500;
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
