@@ -144,7 +144,8 @@ header {
     position: relative;
     text-align: center;
     padding: 100px 15px 100px;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     header .header-content .header-content-inner h1 {
       font-weight: 700;
       text-transform: uppercase;
@@ -162,7 +163,8 @@ header {
       min-height: 100%; }
       header .header-content {
         position: absolute;
-        top: 50%;
+        top: 60%;
+        height: auto;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
